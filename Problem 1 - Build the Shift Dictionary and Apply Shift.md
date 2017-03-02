@@ -1,7 +1,7 @@
 # Problem 1 - Build the Shift Dictionary and Apply Shift
 
 class Message(object):
-    ### DO NOT MODIFY THIS METHOD ###
+   
     def __init__(self, text):
         '''
         Initializes a Message object
@@ -15,7 +15,7 @@ class Message(object):
         self.message_text = text
         self.valid_words = load_words(WORDLIST_FILENAME)
 
-    ### DO NOT MODIFY THIS METHOD ###
+    
     def get_message_text(self):
         '''
         Used to safely access self.message_text outside of the class
@@ -24,7 +24,7 @@ class Message(object):
         '''
         return self.message_text
 
-    ### DO NOT MODIFY THIS METHOD ###
+  
     def get_valid_words(self):
         '''
         Used to safely access a copy of self.valid_words outside of the class
